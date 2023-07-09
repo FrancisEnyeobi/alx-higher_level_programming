@@ -8,4 +8,4 @@ if __name__ == "__main__":
     from add_0 import add
 
     result = add(a, b)
-    print("{} + {} = {}".format(a, b, result))
+    print("{0} + {1} = {2}".format(a, b, add(a, b)))
